@@ -13,6 +13,7 @@ public class VersionesApplication extends Application {
 	public void init() {
 		Window mainWindow = new Window("Spark");
 		Label label = new Label("Usando git");
+		Label labelDev = new Label("Estamos en desarrollo");
 		mainWindow.addComponent(label);
 		setMainWindow(mainWindow);
 	}
