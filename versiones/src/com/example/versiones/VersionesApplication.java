@@ -14,6 +14,7 @@ public class VersionesApplication extends Application {
 		Window mainWindow = new Window("Spark");
 		Label label = new Label("Usando git");
 		Label labelDev = new Label("Estamos en desarrollo");
+		mainWindow.addComponent(labelDev);
 		mainWindow.addComponent(label);
 		setMainWindow(mainWindow);
 	}
