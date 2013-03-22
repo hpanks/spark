@@ -29,4 +29,8 @@ public class Desarrollo extends CustomComponent {
 		mainLayout = new AbsoluteLayout();
 	}
 
+	private void spark(){
+			System.out.println("hola mundo");
+	}
+
 }
